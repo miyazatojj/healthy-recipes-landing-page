@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-align: center;
+    background-image: url(https://i.ibb.co/LPDppLb/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #EBF1FB;
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120px;
+}
+
+h1 span {
+    color: #5EEAD4;
+}
+
+p {
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 72px;
+}
+
+a {
+    font-family: 'Spectral', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #EBF1FB;
+    padding: 16px 32px;
+    line-height: 24px;
+}
+
+a:hover,
+.btn-primary {
+    text-decoration: none;
+    color: #0B0C0E;
+    background: #5EEAD4;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #5eead5cb
+}
